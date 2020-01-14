@@ -1,5 +1,3 @@
-
-
 Deployment Examples:
 =====================
 Back end deployed at: https://lukasbjornvad.dk/Eksamen2020Jan/
