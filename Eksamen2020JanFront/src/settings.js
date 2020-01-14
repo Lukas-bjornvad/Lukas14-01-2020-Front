@@ -1,7 +1,7 @@
 // for development:
-const URL = "http://localhost:8080/eksamen2020jan";
+//const URL = "http://localhost:8080/eksamen2020jan";
 // actual deployed backend:
-//const URL = "https://www.lukasbjornvad.dk/eksamen2020jan";
+const URL = "https://www.lukasbjornvad.dk/Eksamen2020Jan";
 
 const configuration = (function() {
   return {

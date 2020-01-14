@@ -43,7 +43,6 @@ const LogInForm = ({ login }) => {
 
   const handleSubmit = event => {
     event.preventDefault();
-    console.log("Submission..");
     login(user.username, user.password);
   };
 

@@ -8,7 +8,7 @@ const movieFacade = (function() {
       configuration.URL + "/api/movie/movie-info-simple/" + title,
       options
     ).then(handleHttpErrors);
-    console.log(configuration.URL + "/api/movie/movie-info-simple/" + title);
+   
     return us;
   }
 
@@ -18,7 +18,7 @@ const movieFacade = (function() {
       configuration.URL + "/api/movie/movie-info-all/" + title,
       options
     ).then(handleHttpErrors);
-    console.log(configuration.URL + "/api/movie/movie-info-all/" + title);
+   
     return us;
   }
 
@@ -28,7 +28,7 @@ const movieFacade = (function() {
       configuration.URL + "/api/movie/movie-count/" + title,
       options
     ).then(handleHttpErrors);
-    console.log(configuration.URL + "/api/movie/movie-count/" + title);
+    
     return us;
   }
   return {
